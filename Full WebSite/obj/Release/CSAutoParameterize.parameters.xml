@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="comfy_string-Web.config Connection String" description="comfy_string Connection String used in web.config by the application to access the database." defaultValue="Data Source=SQL5042.site4now.net;Initial Catalog=DB_A4B1B5_kashif111;User Id=DB_A4B1B5_kashif111_admin;Password=Smarterasp123" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\M\.Kashif\\Desktop\\WebSeoTips\\Saved\ Project\\Full\ WebSite\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='comfy_string']/@connectionString" />
+  </parameter>
+</parameters>

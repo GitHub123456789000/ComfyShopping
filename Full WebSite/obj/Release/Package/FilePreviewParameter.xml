@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="kashif111-001-site1" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\M\.Kashif\\Desktop\\WebSeoTips\\Saved\ Project\\Full\ WebSite\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\M\.Kashif\\Desktop\\WebSeoTips\\Saved\ Project\\Full\ WebSite\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="comfy_string-Web.config Connection String" description="" value="Data Source=SQL5042.site4now.net;Initial Catalog=DB_A4B1B5_kashif111;User Id=DB_A4B1B5_kashif111_admin;Password=Smarterasp123" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\M\.Kashif\\Desktop\\WebSeoTips\\Saved\ Project\\Full\ WebSite\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='comfy_string']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,6 @@
+C:\Users\M.Kashif\Desktop\@HANDS ON\Bootstrap\Thapa\WebSeoTips\Full WebSite\Full WebSite\bin\Full WebSite.dll.config
+C:\Users\M.Kashif\Desktop\@HANDS ON\Bootstrap\Thapa\WebSeoTips\Full WebSite\Full WebSite\bin\Full WebSite.dll
+C:\Users\M.Kashif\Desktop\@HANDS ON\Bootstrap\Thapa\WebSeoTips\Full WebSite\Full WebSite\bin\Full WebSite.pdb
+C:\Users\M.Kashif\Desktop\@HANDS ON\Bootstrap\Thapa\WebSeoTips\Full WebSite\Full WebSite\obj\Debug\Full WebSite.csprojResolveAssemblyReference.cache
+C:\Users\M.Kashif\Desktop\@HANDS ON\Bootstrap\Thapa\WebSeoTips\Full WebSite\Full WebSite\obj\Debug\Full WebSite.dll
+C:\Users\M.Kashif\Desktop\@HANDS ON\Bootstrap\Thapa\WebSeoTips\Full WebSite\Full WebSite\obj\Debug\Full WebSite.pdb

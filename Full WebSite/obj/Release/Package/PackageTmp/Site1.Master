@@ -1,0 +1,202 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="FullWebSite.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name"viewport" content="width=device-width-initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+
+    <link href="css/bootstrap4.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script> 
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>  
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+
+
+    <title></title>
+   
+</head>
+<body>
+      <form id="form1" runat="server">
+         
+            <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+           <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+        <ContentTemplate>
+            
+        
+
+    <div class="container-fluid   header-top  bg-gold sticky">
+        
+	<div class="container">
+       
+		<div class="row text-light pt-2 pb-2  ">
+
+			<div class="col-sm-3 ">
+                <i class="fa  fa-user-alt " aria-hidden="true"> <asp:Label ID="Label2" runat="server" Text=""></asp:Label> </i>
+			</div>
+            <div class="col-sm-2"> 
+               <i class="fas fa-sign-in-alt " aria-hidden="true">
+                   <a class=" hover  text-white " href="../CustomerAccount/CLogin.aspx"> &nbspCustomer Account</a></i>
+                </div>
+            <div class="col-sm-2"> 
+                
+                <a class="hover text-white" href ="/CartStatus/FullCart.aspx">
+                    
+                  
+                       <asp:Label ID="Label3" CssClass="badge-white" runat="server"  Text="0" Font-Bold="true"></asp:Label></a>
+           <i class="fa fa-cart-plus " aria-hidden="true"> 
+               <a  class="hover text-white" href = "/CartStatus/FullCart.aspx">
+                   <asp:Label ID="Label1" runat="server" Text="&nbsp£ 0.00"></asp:Label> </a></i>
+
+            </div>
+                <div class="col-sm-2"> 
+                <i class="fa fa-users-cog " aria-hidden="true"> 
+               <a class="hover text-white" href="../AdminAccount/AdminLogin.aspx">&nbspAdmin</a></i>
+                
+
+                </div>
+            
+             <div class="col-sm-2"> 
+                <i class="fas fa-sign-out-alt" aria-hidden="true"> 
+               <a><asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="False" CssClass="text-white   " OnClick="LinkButton2_Click">&nbspSignout</asp:LinkButton></a></i>
+                </div>
+            </div>
+	</div></div>
+			
+        <div class="container-fluid bg-black">
+	<nav class="container navbar navbar-expand-lg navbar-dark bg-black">
+  <a class="navbar-brand" href="/Home_Main.aspx"> <img src="/img/logo.png" /><label "></label></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <%--<div>
+        <a class="nav-link" href="../Home_Main.aspx">Home </a>
+      </div>--%>
+     <div class= "dropdown" >
+         
+    <a class="nav-link dropdown-toggle  " href="#"   data-toggle="dropdown">
+          Womens
+            <span class="caret"></span>
+        </a>
+         <ul class="dropdown-menu  ">
+     
+        <li class="" >  <a class="dropdown-item " href="/Womens/WomensCoats.aspx">Womens Jackets</a></li>
+          <li class=""> <a class="dropdown-item" href="/Womens/WomensTop.aspx">Womens Top</a></li>
+            <li class="">  <a class="dropdown-item" href="/Womens/WomensShoes.aspx">Womens Shoes</a></li>
+          </ul>
+       </div>
+     <div class="dropdown">
+        <a class="nav-link dropdown-toggle" href="#"   data-toggle="dropdown">
+          Mens
+            <span class="caret"></span>
+        </a>
+         <ul class="dropdown-menu ">
+        <li class="">  <a class="dropdown-item " href="/Mens/MensJackets.aspx">Mens Jackets</a></li>
+           <li class=""><a class="dropdown-item" href="/Mens/MensJeans.aspx">Mens Jeans</a></li>
+      
+      
+      </ul>
+         </div>
+    <div class=" offset-md-5 col-md-6  offset-sm-0 col-sm-8 ">
+        <div class='input-group '>
+    
+ <asp:TextBox ID="TextBox1" runat="server" class='form-control' placeholder="shoes,ladies,jackets,coats,summer coat,mens,jackets" > </asp:TextBox>
+<a><asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" CssClass="btn btn-outline-success btn-sm"><span><i class="fas fa-search"></i>
+
+</span> Search</asp:LinkButton></a></i></span>
+   </div>
+           </div>
+          
+    </div>
+ 
+</nav>
+</div>
+  
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+           
+       
+        
+        </asp:ContentPlaceHolder>
+    </div>
+            </label>
+            </ContentTemplate>
+            </asp:UpdatePanel>
+    </form>
+
+      <footer>
+	<div class="container-fluid pt-2 bg-gold text-light">
+		<div class="container">
+            
+			<div class="row">
+				<div class="col-md-3">
+					<div class="row">
+						<h5>Meta</h5>
+					</div>
+					<div class="row mb-4">
+						<div class="underline bg-light" style="width: 50px"></div>
+					</div>
+					
+                    <p><i class="fa fa-chevron-right" aria-hidden="true"></i> ComfyShoping Tips</p>
+					<p><i class="fa fa-chevron-right" aria-hidden="true"></i> Comments</p>
+					
+				</div>
+				
+				
+				<div class="col-md-3">
+					<div class="row">
+						<h5>Recent Posts</h5>
+					</div>
+					<div class="row mb-2">
+						<div class="underline bg-light" style="width: 50px"></div> 
+					</div>
+                  
+					<div class="row">
+						<div class="media">
+							
+							
+						</div>
+					</div>
+					
+				</div>
+				
+				
+				<div class="col-md-3">
+					<div class="row">
+						<h5>About</h5>
+					</div>
+					<div class="row mb-2">
+						<div class="underline bg-light" style="width: 50px"></div> 
+					</div>
+					<div class="row">
+						<p>Winter Collection. From your outermost to innermost layers, 
+                          
+                            </p>
+					</div>
+				</div>
+				
+				<div class="col-md-3">
+					<div class="row">
+						<h5>Tags</h5>
+					</div>
+					<div class="row mb-2">
+						<div class="underline bg-light" style="width: 50px"></div> 
+					</div>
+					<button class="btn btn-outline-light">autunm</button> <button class="btn btn-outline-light">Dress</button> <button class="btn btn-outline-light">ladies</button>
+
+				</div>
+			</div>
+		</div>
+	</div> 
+</footer>
+     <%--href="/Search Page/Product Search.aspx"--%>
+   
+    
+</body>
+</html>

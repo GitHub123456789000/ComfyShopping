@@ -1,0 +1,132 @@
+/* CSS Document */
+
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+   z-index: 1;
+}
+
+.bg-gold{background-color:darkred;}
+.carousel-caption{top:200px;}
+
+.card-body{text-align: center;}
+
+.blog .media img{max-width: 200px; height: auto;}
+/*body{background:url('image/b.jpg') no-repeat;
+	overflow-y:scroll;
+	}*/
+#log {
+    padding: 60px 40px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+ 
+
+
+
+/*img{ width:150px;
+	margin:auto;*/
+}
+/*h1{
+color:white;
+text-align:center;
+font-weight:bolder;
+margin-top:-20px;
+}*/
+label{font-size:20px; color:white;}
+button{
+
+-webkit-box-shadow: -3px 1px 20px 2px rgba(0,0,0,0.55);
+-moz-box-shadow: -3px 1px 20px 2px rgba(0,0,0,0.55);
+box-shadow: -3px 1px 20px 2px rgba(0,0,0,0.55);
+}
+
+/*
+    Admin Page
+*/
+.bg-black{ background-color: rgba(14,14,14,1.00);
+    top: 0px;
+    left: 0px;
+}
+
+.carousel-caption{ top:200px}
+
+
+
+.dropdown-menu a  {
+    color:red;
+
+}
+
+
+
+
+
+
+
+.underline{width: 100px; height: 2px; background-color: orangered;}
+
+.card{border: none;}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+a:hover :hover * {
+    text-decoration: underline;
+    color: white !important;
+    
+}
+.text-med {
+  font-size: 150%;
+} 
+
+ #ImageButton1:focus 
+  {
+    outline:none;
+
+}
+.text-large {
+  font-size: 150%;
+}
+.btn-dark{
+    background-color:darkred;
+
+}
+
+
+
+.carousel-control-next-icon1:after
+{
+  content: '>';
+  font-size: 70px;
+  color: darkred;
+}
+
+.carousel-control-prev-icon2:after {
+  content: '<';
+  font-size: 70px;
+  color: darkred;
+}
+
+
+   

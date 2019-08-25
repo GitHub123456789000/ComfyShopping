@@ -1,0 +1,6 @@
+C:\Users\M.Kashif\Desktop\WebSeoTips\Saved Project\Full WebSite\bin\Full WebSite.dll.config
+C:\Users\M.Kashif\Desktop\WebSeoTips\Saved Project\Full WebSite\bin\Full WebSite.dll
+C:\Users\M.Kashif\Desktop\WebSeoTips\Saved Project\Full WebSite\bin\Full WebSite.pdb
+C:\Users\M.Kashif\Desktop\WebSeoTips\Saved Project\Full WebSite\obj\Release\FullWebSite.csprojResolveAssemblyReference.cache
+C:\Users\M.Kashif\Desktop\WebSeoTips\Saved Project\Full WebSite\obj\Release\Full WebSite.dll
+C:\Users\M.Kashif\Desktop\WebSeoTips\Saved Project\Full WebSite\obj\Release\Full WebSite.pdb
